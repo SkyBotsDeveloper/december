@@ -1,12 +1,7 @@
 #!/bin/bash
+set -e
 
-echo "Starting December with Node.js..."
-
-# Install dependencies
-npm install
-
-# Build the project
-npm run build
-
-# Start the server
-npm start
+echo "Starting December..."
+cd backend && npm start &
+cd ../frontend && npm run dev &
+wait
