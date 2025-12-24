@@ -112,7 +112,7 @@ December proves that you don't need to choose between powerful AI assistance and
 
 Hi! Thanks for checking out and using this project. If you are interested in discussing your project, require mentorship, consider hiring me, or just wanna chat - I'm happy to talk.
 
-You can send me an email to get in touch: j.schoen@mail.com or message me on Twitter: [@EliteSidXd](https://twitter.com/EliteSidXd)
+You can send me an email to get in touch: skybotsdeveloper@gmail.com or message me on Twitter: [@EliteSidXd](https://twitter.com/EliteSidXd)
 
 Thanks and have an awesome day 👋
 
