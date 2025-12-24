@@ -1,15 +1,12 @@
 #!/bin/bash
 
-echo "Starting backend server..."
+echo "Starting December with Node.js..."
 
-# copy config file to backend directory
-cp config.ts backend/config.ts
-cd backend && bun src/index.ts &
+# Install dependencies
+npm install
 
-echo "Starting frontend server..."
-cd frontend && bun dev &
+# Build the project
+npm run build
 
-echo "Both servers are starting..."
-echo "Press Ctrl+C to stop both servers"
-
-wait
+# Start the server
+npm start
