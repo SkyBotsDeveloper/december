@@ -1,6 +1,6 @@
 import express from "express";
 import chatRouter from "./routes/chat.js";
-import containerRoutes from "./routes/containers";
+import containerRoutes from "./routes/containers.js";
 
 const app = express();
 
@@ -23,7 +23,7 @@ app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ limit: "50mb", extended: true }));
 
 app.use("/containers", containerRoutes);
-app.use("/chat", chatRoutes);
+app.use("/chat", chatRouter);
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
